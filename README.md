@@ -1,10 +1,10 @@
 # COH-CommunityToolKit
 City of Heroes Portal Corp Toolkit
-***Requires .Net Core 5.0 (Updated)
+</BR>***Requires .Net Core 5.0 (Updated)
 
-BEFORE YOU START
-** Functions Currently in Broken / Inconsistent State...Undergoing long term modifications.
-** Updated Source / Stable will be indicated once/if ready.
+# BEFORE YOU START
+</BR>•	Functions Currently in Broken / Inconsistent State...Undergoing long term modifications.
+</BR>•	Updated Source / Stable will be indicated once/if ready.
 
 
 # ALPHA VERSION (PREVIOUS TO .NET CORE UPDATE)
