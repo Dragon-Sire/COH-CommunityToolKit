@@ -1,3 +1,0 @@
-﻿Public Class PIGG_InternalStructure_SlotEntry_ANIM
-
-End Class

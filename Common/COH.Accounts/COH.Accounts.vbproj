@@ -1,0 +1,46 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>COH</RootNamespace>
+	<TargetFramework>net5.0</TargetFramework>
+    <Authors>DragonSire</Authors>
+    <Company>DragonSire Software</Company>
+    <Copyright>2020 - 2021</Copyright>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+	<OutputType>Library</OutputType>
+    <NeutralLanguage>en</NeutralLanguage>
+    <Platforms>AnyCPU</Platforms>
+    <Configurations>Debug_Toolkit;Release_Toolkit;Release_Client;Release_GameServer</Configurations>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Toolkit|AnyCPU'">
+    <OutputPath>..\..\..\_Compiled Code\Toolkit\Debug\COH.Accounts</OutputPath>
+	<DefineConstants>EDITOR=True,SERVER=False,CLIENT=False</DefineConstants>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Toolkit|AnyCPU'">
+    <OutputPath>..\..\..\_Compiled Code\Toolkit\Release\COH.Accounts</OutputPath>
+	<DefineConstants>EDITOR=True,SERVER=False,CLIENT=False</DefineConstants>
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_GameServer|AnyCPU'">
+    <OutputPath>..\..\..\_Compiled Code\GameServer\Release\COH.Accounts</OutputPath>
+    <DefineConstants>EDITOR=False,SERVER=True,CLIENT=False</DefineConstants>
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Client|AnyCPU'">
+    <OutputPath>..\..\..\_Compiled Code\GameClient\Release\COH.Accounts</OutputPath>
+	<DefineConstants>EDITOR=False,SERVER=False,CLIENT=True</DefineConstants>
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\COH.Storage.Structures\COH.Storage.Serialize.vbproj" />
+  </ItemGroup>
+</Project>

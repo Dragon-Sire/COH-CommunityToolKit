@@ -1,0 +1,82 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>COH</RootNamespace>
+	<TargetFramework>net5.0-windows</TargetFramework>
+    <Authors>DragonSire</Authors>
+    <Company>DragonSire Software</Company>
+    <Copyright>2020 - 2021</Copyright>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+	<OutputType>Library</OutputType>
+    <UseWindowsForms>true</UseWindowsForms>
+    <NeutralLanguage>en</NeutralLanguage>
+    <Platforms>AnyCPU</Platforms>
+    <Configurations>Debug_Toolkit;Release_Toolkit;Release_Client;Release_GameServer</Configurations>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Toolkit|AnyCPU'">
+    <OutputPath>..\..\..\_Compiled Code\Toolkit\Debug\COH.Tools.Modding</OutputPath>
+	<DefineConstants>EDITOR=True,SERVER=False,CLIENT=False</DefineConstants>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Toolkit|AnyCPU'">
+    <OutputPath>..\..\..\_Compiled Code\ToolKit\Release\COH.Tools.Modding</OutputPath>
+	<DefineConstants>EDITOR=True,SERVER=False,CLIENT=False</DefineConstants>
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_GameServer|AnyCPU'">
+    <OutputPath>..\..\..\_Compiled Code\Server\Release\COH.Tools.Modding</OutputPath>
+    <DefineConstants>EDITOR=False,SERVER=True,CLIENT=False</DefineConstants>
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Client|AnyCPU'">
+    <OutputPath>..\..\..\_Compiled Code\GameClient\Release\COH.Tools.Modding</OutputPath>
+	<DefineConstants>EDITOR=False,SERVER=False,CLIENT=True</DefineConstants>
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="_Internal\**" />
+    <EmbeddedResource Remove="_Internal\**" />
+    <None Remove="_Internal\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Import Include="COH.GameContent.CodeManagement.Attributes" />
+    <Import Include="COH.GameContent.CodeManagement.Enums.Structures" />
+    <Import Include="COH.GameContent.CodeManagement.Enums.Toks" />
+    <Import Include="COH.GameContent.CodeManagement.Extentions" />
+    <Import Include="COH.GameContent.CodeManagement.Interfaces" />
+    <Import Include="COH.GameContent.CodeManagement.Interfaces.Structures" />
+    <Import Include="COH.GameContent.CodeManagement.Interfaces.TOKs" />
+    <Import Include="COH.GameContent.Storage.Serialization" />
+    <Import Include="COH.GameContent.Storage.Serialization.Configuration" />
+    <Import Include="COH.GameContent.Storage.Structures" />
+    <Import Include="COH.GameContent.Storage.Structures.CrypticsS" />
+    <Import Include="COH.GameContent.Storage.Structures.Generics" />
+    <Import Include="System.ComponentModel" />
+    <Import Include="System.ComponentModel.Design" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Threading.Tasks.Sources" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\COH.GameContent\COH.Core.vbproj" />
+    <ProjectReference Include="..\COH.Toolkit.Controls.Forms\COH.Toolkit.Controls.vbproj" />
+    <ProjectReference Include="..\COH.Toolkit.Controls.WPF\COH.Toolkit.WPFControls.vbproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+    </None>
+  </ItemGroup>
+
+</Project>

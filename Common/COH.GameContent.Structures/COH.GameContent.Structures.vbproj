@@ -1,0 +1,93 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>COH</RootNamespace>
+	<TargetFramework>net5.0</TargetFramework>
+    <Authors>DragonSire</Authors>
+    <Company>DragonSire Software</Company>
+    <Copyright>2020 - 2021</Copyright>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+	<OutputType>Library</OutputType>
+    <NeutralLanguage>en</NeutralLanguage>
+    <Platforms>AnyCPU</Platforms>
+    <Configurations>Debug_Toolkit;Release_Toolkit;Release_Client;Release_GameServer</Configurations>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Toolkit|AnyCPU'">
+    <OutputPath>..\..\..\_Compiled Code\Toolkit\Debug\COH.GameContent.Structures</OutputPath>
+	<DefineConstants>EDITOR=True,SERVER=False,CLIENT=False</DefineConstants>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Toolkit|AnyCPU'">
+    <OutputPath>..\..\..\_Compiled Code\ToolKit\Release\COH.GameContent.Structures</OutputPath>
+	<DefineConstants>EDITOR=True,SERVER=False,CLIENT=False</DefineConstants>
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_GameServer|AnyCPU'">
+    <OutputPath>..\..\..\_Compiled Code\Server\Release\COH.GameContent.Structures</OutputPath>
+    <DefineConstants>EDITOR=False,SERVER=True,CLIENT=False</DefineConstants>
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Client|AnyCPU'">
+    <OutputPath>..\..\..\_Compiled Code\GameClient\Release\COH.GameContent.Structures</OutputPath>
+	<DefineConstants>EDITOR=False,SERVER=False,CLIENT=True</DefineConstants>
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="_Internal\Constants\**" />
+    <EmbeddedResource Remove="_Internal\Constants\**" />
+    <None Remove="_Internal\Constants\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Import Include="COH.CodeManagement.Attributes" />
+    <Import Include="COH.CodeManagement.Enums" />
+    <Import Include="COH.CodeManagement.Enums.Binary" />
+    <Import Include="COH.CodeManagement.Enums.Structures" />
+    <Import Include="COH.CodeManagement.Enums.Toks" />
+    <Import Include="COH.CodeManagement.Extentions" />
+    <Import Include="COH.CodeManagement.Interfaces.Structures" />
+    <Import Include="COH.CodeManagement.Interfaces.TOKs" />
+    <Import Include="COH.GameContent.Internal.DeveloperOptions" />
+    <Import Include="COH.HelperClasses" />
+    <Import Include="COH.HelperClasses.Wrappers" />
+    <Import Include="COH.HelperFunctions.StringsAndThings" />
+    <Import Include="COH.Storage.Serialization" />
+    <Import Include="COH.Storage.Serialization.Configuration" />
+    <Import Include="COH.Storage.Structures" />
+    <Import Include="COH.Storage.Structures.CrypticsS" />
+    <Import Include="COH.Storage.Structures.Generics" />
+    <Import Include="System.ComponentModel" />
+    <Import Include="System.ComponentModel.Design" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AssimpNet" Version="4.1.0" />
+    <PackageReference Include="Pfim" Version="0.7.0" />
+    <PackageReference Include="System.Drawing.Common" Version="4.6.0-preview6.19303.8" />
+    <PackageReference Include="zlib.net" Version="1.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\COH.GameContent\COH.Core.vbproj" />
+    <ProjectReference Include="..\COH.Storage.Structures\COH.Storage.Serialize.vbproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="zlib.net">
+      <HintPath>..\packages\zlib.net.1.0.4.0\lib\zlib.net.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
+
+
+
+
+

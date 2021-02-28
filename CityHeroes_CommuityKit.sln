@@ -1,0 +1,224 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30803.129
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "COH.Core", "Common\COH.GameContent\COH.Core.vbproj", "{DB5DADC6-9949-4DFA-9021-FB909BC17FDA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GameContent", "GameContent", "{6DFE10E4-3C2B-427F-A196-022316218FBE}"
+EndProject
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "COH.GameContent.MessageStores", "Common\COH.GameContent.MessageStores\COH.GameContent.MessageStores.vbproj", "{326AC461-EE5C-4872-862B-5F522FB8AC52}"
+EndProject
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "COH.GameContent.Structures.Resources", "Common\COH.GameContent.Resources\COH.GameContent.Structures.Resources.vbproj", "{4EBD4F82-F6B2-4731-91F2-3B2EAE5626B5}"
+EndProject
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "COH.GameContent.Structures", "Common\COH.GameContent.Structures\COH.GameContent.Structures.vbproj", "{8226245E-4CB0-4EAC-B22F-409B50175E6A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Storage", "Storage", "{AC69A0A6-068E-476E-A820-D4EC3F746571}"
+EndProject
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "COH.Storage.Containers.PiggyBin", "Common\COH.Storage.PiggyBin\COH.Storage.Containers.PiggyBin.vbproj", "{84F640E5-12A1-48B6-924B-9C2B4A08CA73}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Toolkit", "Toolkit", "{2416DC8F-B0E6-43B8-A9A5-391D66B2A809}"
+EndProject
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "Community ToolKit", "Toolkit\CommunityToolkit\Community ToolKit.vbproj", "{AAE6E2C5-544B-452D-97DF-59390BD0047F}"
+EndProject
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "COH.Toolkit.Controls", "Toolkit\COH.Toolkit.Controls.Forms\COH.Toolkit.Controls.vbproj", "{A81A7080-229B-4651-B255-C764D086C201}"
+EndProject
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "COH.Toolkit.WPFControls", "Toolkit\COH.Toolkit.Controls.WPF\COH.Toolkit.WPFControls.vbproj", "{47FC284B-9BAC-49A6-A7D6-16EA87D8107E}"
+EndProject
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "COH.Toolkit.Modding", "Toolkit\COH.Toolkit.Modding\COH.Toolkit.Modding.vbproj", "{5E589E8D-09B5-4623-8624-8F8EC1D5D4C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GameServers", "GameServers", "{99500218-E608-4FD6-B8D6-C6AD3EECD1BA}"
+EndProject
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "AccountServer", "Servers\AccountServer\AccountServer.vbproj", "{C8007A1B-3321-4368-8C8A-2DE67A195F8C}"
+EndProject
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "AuthorizationServer", "Servers\AuthorizationServer\AuthorizationServer.vbproj", "{26124A7F-E87C-43A2-82D5-03EFAC179097}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GameAccount", "GameAccount", "{558909B4-E9A9-459D-B739-CA0D71F3DE68}"
+EndProject
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "COH.Accounts", "Common\COH.Accounts\COH.Accounts.vbproj", "{AD7A5E9E-AAC2-4034-A9EC-7D84AF707C33}"
+EndProject
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "COH.Storage.Serialize", "Common\COH.Storage.Structures\COH.Storage.Serialize.vbproj", "{DD3DDB30-E89C-47F4-995A-6A31BC6289F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common (Shared)", "Common (Shared)", "{6D877B11-8658-4C18-8883-067E52F1E044}"
+EndProject
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "COH.Storage.Containers.CrypticBin", "Common\COH.Storage.CrypticBin\COH.Storage.Containers.CrypticBin.vbproj", "{28377B12-BA38-40B3-A6DF-E3D21B64E760}"
+EndProject
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "COH.Toolkit", "Toolkit\COH.Toolkit\COH.Toolkit.vbproj", "{72CE3BBB-BDD0-45D4-9F16-CEE624556A6E}"
+EndProject
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "COH.Storage.Databases", "Common\COH.Storage.Databases\COH.Storage.Databases.vbproj", "{02806AB4-BA03-410F-9C67-AC9F12B84BB4}"
+EndProject
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "COH.Storage.Databases.SQL", "Common\COH.Storage.Databases.SQL\COH.Storage.Databases.SQL.vbproj", "{B7822616-F7DE-41CB-BEA6-B7AA7C79219D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug_Toolkit|Any CPU = Debug_Toolkit|Any CPU
+		Release_Client|Any CPU = Release_Client|Any CPU
+		Release_GameServer|Any CPU = Release_GameServer|Any CPU
+		Release_Toolkit|Any CPU = Release_Toolkit|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB5DADC6-9949-4DFA-9021-FB909BC17FDA}.Debug_Toolkit|Any CPU.ActiveCfg = Debug_Toolkit|Any CPU
+		{DB5DADC6-9949-4DFA-9021-FB909BC17FDA}.Debug_Toolkit|Any CPU.Build.0 = Debug_Toolkit|Any CPU
+		{DB5DADC6-9949-4DFA-9021-FB909BC17FDA}.Release_Client|Any CPU.ActiveCfg = Release_Client|Any CPU
+		{DB5DADC6-9949-4DFA-9021-FB909BC17FDA}.Release_Client|Any CPU.Build.0 = Release_Client|Any CPU
+		{DB5DADC6-9949-4DFA-9021-FB909BC17FDA}.Release_GameServer|Any CPU.ActiveCfg = Release_GameServer|Any CPU
+		{DB5DADC6-9949-4DFA-9021-FB909BC17FDA}.Release_GameServer|Any CPU.Build.0 = Release_GameServer|Any CPU
+		{DB5DADC6-9949-4DFA-9021-FB909BC17FDA}.Release_Toolkit|Any CPU.ActiveCfg = Release_Toolkit|Any CPU
+		{DB5DADC6-9949-4DFA-9021-FB909BC17FDA}.Release_Toolkit|Any CPU.Build.0 = Release_Toolkit|Any CPU
+		{326AC461-EE5C-4872-862B-5F522FB8AC52}.Debug_Toolkit|Any CPU.ActiveCfg = Debug_Toolkit|Any CPU
+		{326AC461-EE5C-4872-862B-5F522FB8AC52}.Debug_Toolkit|Any CPU.Build.0 = Debug_Toolkit|Any CPU
+		{326AC461-EE5C-4872-862B-5F522FB8AC52}.Release_Client|Any CPU.ActiveCfg = Release_Client|Any CPU
+		{326AC461-EE5C-4872-862B-5F522FB8AC52}.Release_Client|Any CPU.Build.0 = Release_Client|Any CPU
+		{326AC461-EE5C-4872-862B-5F522FB8AC52}.Release_GameServer|Any CPU.ActiveCfg = Release_GameServer|Any CPU
+		{326AC461-EE5C-4872-862B-5F522FB8AC52}.Release_GameServer|Any CPU.Build.0 = Release_GameServer|Any CPU
+		{326AC461-EE5C-4872-862B-5F522FB8AC52}.Release_Toolkit|Any CPU.ActiveCfg = Release_Toolkit|Any CPU
+		{326AC461-EE5C-4872-862B-5F522FB8AC52}.Release_Toolkit|Any CPU.Build.0 = Release_Toolkit|Any CPU
+		{4EBD4F82-F6B2-4731-91F2-3B2EAE5626B5}.Debug_Toolkit|Any CPU.ActiveCfg = Debug_Toolkit|Any CPU
+		{4EBD4F82-F6B2-4731-91F2-3B2EAE5626B5}.Debug_Toolkit|Any CPU.Build.0 = Debug_Toolkit|Any CPU
+		{4EBD4F82-F6B2-4731-91F2-3B2EAE5626B5}.Release_Client|Any CPU.ActiveCfg = Release_Client|Any CPU
+		{4EBD4F82-F6B2-4731-91F2-3B2EAE5626B5}.Release_Client|Any CPU.Build.0 = Release_Client|Any CPU
+		{4EBD4F82-F6B2-4731-91F2-3B2EAE5626B5}.Release_GameServer|Any CPU.ActiveCfg = Release_GameServer|Any CPU
+		{4EBD4F82-F6B2-4731-91F2-3B2EAE5626B5}.Release_GameServer|Any CPU.Build.0 = Release_GameServer|Any CPU
+		{4EBD4F82-F6B2-4731-91F2-3B2EAE5626B5}.Release_Toolkit|Any CPU.ActiveCfg = Release_Toolkit|Any CPU
+		{4EBD4F82-F6B2-4731-91F2-3B2EAE5626B5}.Release_Toolkit|Any CPU.Build.0 = Release_Toolkit|Any CPU
+		{8226245E-4CB0-4EAC-B22F-409B50175E6A}.Debug_Toolkit|Any CPU.ActiveCfg = Debug_Toolkit|Any CPU
+		{8226245E-4CB0-4EAC-B22F-409B50175E6A}.Debug_Toolkit|Any CPU.Build.0 = Debug_Toolkit|Any CPU
+		{8226245E-4CB0-4EAC-B22F-409B50175E6A}.Release_Client|Any CPU.ActiveCfg = Release_Client|Any CPU
+		{8226245E-4CB0-4EAC-B22F-409B50175E6A}.Release_Client|Any CPU.Build.0 = Release_Client|Any CPU
+		{8226245E-4CB0-4EAC-B22F-409B50175E6A}.Release_GameServer|Any CPU.ActiveCfg = Release_GameServer|Any CPU
+		{8226245E-4CB0-4EAC-B22F-409B50175E6A}.Release_GameServer|Any CPU.Build.0 = Release_GameServer|Any CPU
+		{8226245E-4CB0-4EAC-B22F-409B50175E6A}.Release_Toolkit|Any CPU.ActiveCfg = Release_Toolkit|Any CPU
+		{8226245E-4CB0-4EAC-B22F-409B50175E6A}.Release_Toolkit|Any CPU.Build.0 = Release_Toolkit|Any CPU
+		{84F640E5-12A1-48B6-924B-9C2B4A08CA73}.Debug_Toolkit|Any CPU.ActiveCfg = Debug_Toolkit|Any CPU
+		{84F640E5-12A1-48B6-924B-9C2B4A08CA73}.Debug_Toolkit|Any CPU.Build.0 = Debug_Toolkit|Any CPU
+		{84F640E5-12A1-48B6-924B-9C2B4A08CA73}.Release_Client|Any CPU.ActiveCfg = Release_Client|Any CPU
+		{84F640E5-12A1-48B6-924B-9C2B4A08CA73}.Release_Client|Any CPU.Build.0 = Release_Client|Any CPU
+		{84F640E5-12A1-48B6-924B-9C2B4A08CA73}.Release_GameServer|Any CPU.ActiveCfg = Release_GameServer|Any CPU
+		{84F640E5-12A1-48B6-924B-9C2B4A08CA73}.Release_GameServer|Any CPU.Build.0 = Release_GameServer|Any CPU
+		{84F640E5-12A1-48B6-924B-9C2B4A08CA73}.Release_Toolkit|Any CPU.ActiveCfg = Release_Toolkit|Any CPU
+		{84F640E5-12A1-48B6-924B-9C2B4A08CA73}.Release_Toolkit|Any CPU.Build.0 = Release_Toolkit|Any CPU
+		{AAE6E2C5-544B-452D-97DF-59390BD0047F}.Debug_Toolkit|Any CPU.ActiveCfg = Debug_Toolkit|Any CPU
+		{AAE6E2C5-544B-452D-97DF-59390BD0047F}.Debug_Toolkit|Any CPU.Build.0 = Debug_Toolkit|Any CPU
+		{AAE6E2C5-544B-452D-97DF-59390BD0047F}.Release_Client|Any CPU.ActiveCfg = Release_Client|Any CPU
+		{AAE6E2C5-544B-452D-97DF-59390BD0047F}.Release_Client|Any CPU.Build.0 = Release_Client|Any CPU
+		{AAE6E2C5-544B-452D-97DF-59390BD0047F}.Release_GameServer|Any CPU.ActiveCfg = Release_GameServer|Any CPU
+		{AAE6E2C5-544B-452D-97DF-59390BD0047F}.Release_GameServer|Any CPU.Build.0 = Release_GameServer|Any CPU
+		{AAE6E2C5-544B-452D-97DF-59390BD0047F}.Release_Toolkit|Any CPU.ActiveCfg = Release_Toolkit|Any CPU
+		{AAE6E2C5-544B-452D-97DF-59390BD0047F}.Release_Toolkit|Any CPU.Build.0 = Release_Toolkit|Any CPU
+		{A81A7080-229B-4651-B255-C764D086C201}.Debug_Toolkit|Any CPU.ActiveCfg = Debug_Toolkit|Any CPU
+		{A81A7080-229B-4651-B255-C764D086C201}.Debug_Toolkit|Any CPU.Build.0 = Debug_Toolkit|Any CPU
+		{A81A7080-229B-4651-B255-C764D086C201}.Release_Client|Any CPU.ActiveCfg = Release_Client|Any CPU
+		{A81A7080-229B-4651-B255-C764D086C201}.Release_Client|Any CPU.Build.0 = Release_Client|Any CPU
+		{A81A7080-229B-4651-B255-C764D086C201}.Release_GameServer|Any CPU.ActiveCfg = Release_GameServer|Any CPU
+		{A81A7080-229B-4651-B255-C764D086C201}.Release_GameServer|Any CPU.Build.0 = Release_GameServer|Any CPU
+		{A81A7080-229B-4651-B255-C764D086C201}.Release_Toolkit|Any CPU.ActiveCfg = Release_Toolkit|Any CPU
+		{A81A7080-229B-4651-B255-C764D086C201}.Release_Toolkit|Any CPU.Build.0 = Release_Toolkit|Any CPU
+		{47FC284B-9BAC-49A6-A7D6-16EA87D8107E}.Debug_Toolkit|Any CPU.ActiveCfg = Debug_Toolkit|Any CPU
+		{47FC284B-9BAC-49A6-A7D6-16EA87D8107E}.Debug_Toolkit|Any CPU.Build.0 = Debug_Toolkit|Any CPU
+		{47FC284B-9BAC-49A6-A7D6-16EA87D8107E}.Release_Client|Any CPU.ActiveCfg = Release_Client|Any CPU
+		{47FC284B-9BAC-49A6-A7D6-16EA87D8107E}.Release_Client|Any CPU.Build.0 = Release_Client|Any CPU
+		{47FC284B-9BAC-49A6-A7D6-16EA87D8107E}.Release_GameServer|Any CPU.ActiveCfg = Release_GameServer|Any CPU
+		{47FC284B-9BAC-49A6-A7D6-16EA87D8107E}.Release_GameServer|Any CPU.Build.0 = Release_GameServer|Any CPU
+		{47FC284B-9BAC-49A6-A7D6-16EA87D8107E}.Release_Toolkit|Any CPU.ActiveCfg = Release_Toolkit|Any CPU
+		{47FC284B-9BAC-49A6-A7D6-16EA87D8107E}.Release_Toolkit|Any CPU.Build.0 = Release_Toolkit|Any CPU
+		{5E589E8D-09B5-4623-8624-8F8EC1D5D4C6}.Debug_Toolkit|Any CPU.ActiveCfg = Debug_Toolkit|Any CPU
+		{5E589E8D-09B5-4623-8624-8F8EC1D5D4C6}.Debug_Toolkit|Any CPU.Build.0 = Debug_Toolkit|Any CPU
+		{5E589E8D-09B5-4623-8624-8F8EC1D5D4C6}.Release_Client|Any CPU.ActiveCfg = Release_Client|Any CPU
+		{5E589E8D-09B5-4623-8624-8F8EC1D5D4C6}.Release_Client|Any CPU.Build.0 = Release_Client|Any CPU
+		{5E589E8D-09B5-4623-8624-8F8EC1D5D4C6}.Release_GameServer|Any CPU.ActiveCfg = Release_GameServer|Any CPU
+		{5E589E8D-09B5-4623-8624-8F8EC1D5D4C6}.Release_GameServer|Any CPU.Build.0 = Release_GameServer|Any CPU
+		{5E589E8D-09B5-4623-8624-8F8EC1D5D4C6}.Release_Toolkit|Any CPU.ActiveCfg = Release_Toolkit|Any CPU
+		{5E589E8D-09B5-4623-8624-8F8EC1D5D4C6}.Release_Toolkit|Any CPU.Build.0 = Release_Toolkit|Any CPU
+		{C8007A1B-3321-4368-8C8A-2DE67A195F8C}.Debug_Toolkit|Any CPU.ActiveCfg = Release_GameServer|Any CPU
+		{C8007A1B-3321-4368-8C8A-2DE67A195F8C}.Debug_Toolkit|Any CPU.Build.0 = Release_GameServer|Any CPU
+		{C8007A1B-3321-4368-8C8A-2DE67A195F8C}.Release_Client|Any CPU.ActiveCfg = Release_GameServer|Any CPU
+		{C8007A1B-3321-4368-8C8A-2DE67A195F8C}.Release_Client|Any CPU.Build.0 = Release_GameServer|Any CPU
+		{C8007A1B-3321-4368-8C8A-2DE67A195F8C}.Release_GameServer|Any CPU.ActiveCfg = Release_GameServer|Any CPU
+		{C8007A1B-3321-4368-8C8A-2DE67A195F8C}.Release_GameServer|Any CPU.Build.0 = Release_GameServer|Any CPU
+		{C8007A1B-3321-4368-8C8A-2DE67A195F8C}.Release_Toolkit|Any CPU.ActiveCfg = Release_GameServer|Any CPU
+		{C8007A1B-3321-4368-8C8A-2DE67A195F8C}.Release_Toolkit|Any CPU.Build.0 = Release_GameServer|Any CPU
+		{26124A7F-E87C-43A2-82D5-03EFAC179097}.Debug_Toolkit|Any CPU.ActiveCfg = Release_GameServer|Any CPU
+		{26124A7F-E87C-43A2-82D5-03EFAC179097}.Debug_Toolkit|Any CPU.Build.0 = Release_GameServer|Any CPU
+		{26124A7F-E87C-43A2-82D5-03EFAC179097}.Release_Client|Any CPU.ActiveCfg = Release_GameServer|Any CPU
+		{26124A7F-E87C-43A2-82D5-03EFAC179097}.Release_Client|Any CPU.Build.0 = Release_GameServer|Any CPU
+		{26124A7F-E87C-43A2-82D5-03EFAC179097}.Release_GameServer|Any CPU.ActiveCfg = Release_GameServer|Any CPU
+		{26124A7F-E87C-43A2-82D5-03EFAC179097}.Release_GameServer|Any CPU.Build.0 = Release_GameServer|Any CPU
+		{26124A7F-E87C-43A2-82D5-03EFAC179097}.Release_Toolkit|Any CPU.ActiveCfg = Release_GameServer|Any CPU
+		{26124A7F-E87C-43A2-82D5-03EFAC179097}.Release_Toolkit|Any CPU.Build.0 = Release_GameServer|Any CPU
+		{AD7A5E9E-AAC2-4034-A9EC-7D84AF707C33}.Debug_Toolkit|Any CPU.ActiveCfg = Debug_Toolkit|Any CPU
+		{AD7A5E9E-AAC2-4034-A9EC-7D84AF707C33}.Debug_Toolkit|Any CPU.Build.0 = Debug_Toolkit|Any CPU
+		{AD7A5E9E-AAC2-4034-A9EC-7D84AF707C33}.Release_Client|Any CPU.ActiveCfg = Release_Client|Any CPU
+		{AD7A5E9E-AAC2-4034-A9EC-7D84AF707C33}.Release_Client|Any CPU.Build.0 = Release_Client|Any CPU
+		{AD7A5E9E-AAC2-4034-A9EC-7D84AF707C33}.Release_GameServer|Any CPU.ActiveCfg = Release_GameServer|Any CPU
+		{AD7A5E9E-AAC2-4034-A9EC-7D84AF707C33}.Release_GameServer|Any CPU.Build.0 = Release_GameServer|Any CPU
+		{AD7A5E9E-AAC2-4034-A9EC-7D84AF707C33}.Release_Toolkit|Any CPU.ActiveCfg = Release_Toolkit|Any CPU
+		{AD7A5E9E-AAC2-4034-A9EC-7D84AF707C33}.Release_Toolkit|Any CPU.Build.0 = Release_Toolkit|Any CPU
+		{DD3DDB30-E89C-47F4-995A-6A31BC6289F3}.Debug_Toolkit|Any CPU.ActiveCfg = Debug_Toolkit|Any CPU
+		{DD3DDB30-E89C-47F4-995A-6A31BC6289F3}.Debug_Toolkit|Any CPU.Build.0 = Debug_Toolkit|Any CPU
+		{DD3DDB30-E89C-47F4-995A-6A31BC6289F3}.Release_Client|Any CPU.ActiveCfg = Release_Client|Any CPU
+		{DD3DDB30-E89C-47F4-995A-6A31BC6289F3}.Release_Client|Any CPU.Build.0 = Release_Client|Any CPU
+		{DD3DDB30-E89C-47F4-995A-6A31BC6289F3}.Release_GameServer|Any CPU.ActiveCfg = Release_GameServer|Any CPU
+		{DD3DDB30-E89C-47F4-995A-6A31BC6289F3}.Release_GameServer|Any CPU.Build.0 = Release_GameServer|Any CPU
+		{DD3DDB30-E89C-47F4-995A-6A31BC6289F3}.Release_Toolkit|Any CPU.ActiveCfg = Release_Toolkit|Any CPU
+		{DD3DDB30-E89C-47F4-995A-6A31BC6289F3}.Release_Toolkit|Any CPU.Build.0 = Release_Toolkit|Any CPU
+		{28377B12-BA38-40B3-A6DF-E3D21B64E760}.Debug_Toolkit|Any CPU.ActiveCfg = Debug_Toolkit|Any CPU
+		{28377B12-BA38-40B3-A6DF-E3D21B64E760}.Debug_Toolkit|Any CPU.Build.0 = Debug_Toolkit|Any CPU
+		{28377B12-BA38-40B3-A6DF-E3D21B64E760}.Release_Client|Any CPU.ActiveCfg = Release_Client|Any CPU
+		{28377B12-BA38-40B3-A6DF-E3D21B64E760}.Release_Client|Any CPU.Build.0 = Release_Client|Any CPU
+		{28377B12-BA38-40B3-A6DF-E3D21B64E760}.Release_GameServer|Any CPU.ActiveCfg = Release_GameServer|Any CPU
+		{28377B12-BA38-40B3-A6DF-E3D21B64E760}.Release_GameServer|Any CPU.Build.0 = Release_GameServer|Any CPU
+		{28377B12-BA38-40B3-A6DF-E3D21B64E760}.Release_Toolkit|Any CPU.ActiveCfg = Release_Toolkit|Any CPU
+		{28377B12-BA38-40B3-A6DF-E3D21B64E760}.Release_Toolkit|Any CPU.Build.0 = Release_Toolkit|Any CPU
+		{72CE3BBB-BDD0-45D4-9F16-CEE624556A6E}.Debug_Toolkit|Any CPU.ActiveCfg = Debug_Toolkit|Any CPU
+		{72CE3BBB-BDD0-45D4-9F16-CEE624556A6E}.Debug_Toolkit|Any CPU.Build.0 = Debug_Toolkit|Any CPU
+		{72CE3BBB-BDD0-45D4-9F16-CEE624556A6E}.Release_Client|Any CPU.ActiveCfg = Release_Toolkit|Any CPU
+		{72CE3BBB-BDD0-45D4-9F16-CEE624556A6E}.Release_Client|Any CPU.Build.0 = Release_Toolkit|Any CPU
+		{72CE3BBB-BDD0-45D4-9F16-CEE624556A6E}.Release_GameServer|Any CPU.ActiveCfg = Release_Toolkit|Any CPU
+		{72CE3BBB-BDD0-45D4-9F16-CEE624556A6E}.Release_GameServer|Any CPU.Build.0 = Release_Toolkit|Any CPU
+		{72CE3BBB-BDD0-45D4-9F16-CEE624556A6E}.Release_Toolkit|Any CPU.ActiveCfg = Release_Toolkit|Any CPU
+		{72CE3BBB-BDD0-45D4-9F16-CEE624556A6E}.Release_Toolkit|Any CPU.Build.0 = Release_Toolkit|Any CPU
+		{02806AB4-BA03-410F-9C67-AC9F12B84BB4}.Debug_Toolkit|Any CPU.ActiveCfg = Debug_Toolkit|Any CPU
+		{02806AB4-BA03-410F-9C67-AC9F12B84BB4}.Debug_Toolkit|Any CPU.Build.0 = Debug_Toolkit|Any CPU
+		{02806AB4-BA03-410F-9C67-AC9F12B84BB4}.Release_Client|Any CPU.ActiveCfg = Release_Client|Any CPU
+		{02806AB4-BA03-410F-9C67-AC9F12B84BB4}.Release_Client|Any CPU.Build.0 = Release_Client|Any CPU
+		{02806AB4-BA03-410F-9C67-AC9F12B84BB4}.Release_GameServer|Any CPU.ActiveCfg = Release_GameServer|Any CPU
+		{02806AB4-BA03-410F-9C67-AC9F12B84BB4}.Release_GameServer|Any CPU.Build.0 = Release_GameServer|Any CPU
+		{02806AB4-BA03-410F-9C67-AC9F12B84BB4}.Release_Toolkit|Any CPU.ActiveCfg = Release_Toolkit|Any CPU
+		{02806AB4-BA03-410F-9C67-AC9F12B84BB4}.Release_Toolkit|Any CPU.Build.0 = Release_Toolkit|Any CPU
+		{B7822616-F7DE-41CB-BEA6-B7AA7C79219D}.Debug_Toolkit|Any CPU.ActiveCfg = Debug_Toolkit|Any CPU
+		{B7822616-F7DE-41CB-BEA6-B7AA7C79219D}.Debug_Toolkit|Any CPU.Build.0 = Debug_Toolkit|Any CPU
+		{B7822616-F7DE-41CB-BEA6-B7AA7C79219D}.Release_Client|Any CPU.ActiveCfg = Release_Client|Any CPU
+		{B7822616-F7DE-41CB-BEA6-B7AA7C79219D}.Release_Client|Any CPU.Build.0 = Release_Client|Any CPU
+		{B7822616-F7DE-41CB-BEA6-B7AA7C79219D}.Release_GameServer|Any CPU.ActiveCfg = Release_GameServer|Any CPU
+		{B7822616-F7DE-41CB-BEA6-B7AA7C79219D}.Release_GameServer|Any CPU.Build.0 = Release_GameServer|Any CPU
+		{B7822616-F7DE-41CB-BEA6-B7AA7C79219D}.Release_Toolkit|Any CPU.ActiveCfg = Release_Toolkit|Any CPU
+		{B7822616-F7DE-41CB-BEA6-B7AA7C79219D}.Release_Toolkit|Any CPU.Build.0 = Release_Toolkit|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6DFE10E4-3C2B-427F-A196-022316218FBE} = {6D877B11-8658-4C18-8883-067E52F1E044}
+		{326AC461-EE5C-4872-862B-5F522FB8AC52} = {6DFE10E4-3C2B-427F-A196-022316218FBE}
+		{4EBD4F82-F6B2-4731-91F2-3B2EAE5626B5} = {6DFE10E4-3C2B-427F-A196-022316218FBE}
+		{8226245E-4CB0-4EAC-B22F-409B50175E6A} = {6DFE10E4-3C2B-427F-A196-022316218FBE}
+		{AC69A0A6-068E-476E-A820-D4EC3F746571} = {6D877B11-8658-4C18-8883-067E52F1E044}
+		{84F640E5-12A1-48B6-924B-9C2B4A08CA73} = {AC69A0A6-068E-476E-A820-D4EC3F746571}
+		{AAE6E2C5-544B-452D-97DF-59390BD0047F} = {2416DC8F-B0E6-43B8-A9A5-391D66B2A809}
+		{A81A7080-229B-4651-B255-C764D086C201} = {2416DC8F-B0E6-43B8-A9A5-391D66B2A809}
+		{47FC284B-9BAC-49A6-A7D6-16EA87D8107E} = {2416DC8F-B0E6-43B8-A9A5-391D66B2A809}
+		{5E589E8D-09B5-4623-8624-8F8EC1D5D4C6} = {2416DC8F-B0E6-43B8-A9A5-391D66B2A809}
+		{C8007A1B-3321-4368-8C8A-2DE67A195F8C} = {99500218-E608-4FD6-B8D6-C6AD3EECD1BA}
+		{26124A7F-E87C-43A2-82D5-03EFAC179097} = {99500218-E608-4FD6-B8D6-C6AD3EECD1BA}
+		{558909B4-E9A9-459D-B739-CA0D71F3DE68} = {6D877B11-8658-4C18-8883-067E52F1E044}
+		{AD7A5E9E-AAC2-4034-A9EC-7D84AF707C33} = {558909B4-E9A9-459D-B739-CA0D71F3DE68}
+		{DD3DDB30-E89C-47F4-995A-6A31BC6289F3} = {AC69A0A6-068E-476E-A820-D4EC3F746571}
+		{28377B12-BA38-40B3-A6DF-E3D21B64E760} = {AC69A0A6-068E-476E-A820-D4EC3F746571}
+		{72CE3BBB-BDD0-45D4-9F16-CEE624556A6E} = {2416DC8F-B0E6-43B8-A9A5-391D66B2A809}
+		{02806AB4-BA03-410F-9C67-AC9F12B84BB4} = {AC69A0A6-068E-476E-A820-D4EC3F746571}
+		{B7822616-F7DE-41CB-BEA6-B7AA7C79219D} = {AC69A0A6-068E-476E-A820-D4EC3F746571}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C5A425F-89BA-46F0-A17F-227524327FE5}
+	EndGlobalSection
+EndGlobal
