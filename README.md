@@ -1,11 +1,8 @@
 # COH-CommunityToolKit
 City of Heroes Portal Corp Toolkit
 </BR>***Requires .Net Core 5.0 (Updated)
-
-# BEFORE YOU START
 </BR>•	Functions Currently in Broken / Inconsistent State...Undergoing long term modifications.
 </BR>•	Updated Source / Stable will be indicated once/if ready.
-
 
 # ALPHA VERSION (PREVIOUS TO .NET CORE UPDATE)
 1.	You need Bin.PIGG (Client Version)
