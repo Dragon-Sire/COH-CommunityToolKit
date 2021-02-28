@@ -5,8 +5,7 @@ City of Heroes Portal Corp Toolkit
 </BR>•	Updated Source / Stable will be indicated once/if ready.
 
 
-## (DETAILS PREVIOUS TO .NET CORE UPDATE)
-## ALPHA VERSION 
+## DETAILS PREVIOUS TO .NET CORE UPDATE
 1.	You need Bin.PIGG (Client Version)
 2.	You need Access to Server BINs for the additional MessageStore Files
 3.	Fresh Startup will prompt for the locations of these files, and copy accordingly
