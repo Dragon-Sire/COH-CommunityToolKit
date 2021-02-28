@@ -4,6 +4,8 @@ City of Heroes Portal Corp Toolkit
 </BR>•	Functions Currently in Broken / Inconsistent State...Undergoing long term modifications.
 </BR>•	Updated Source / Stable will be indicated once/if ready.
 
+-------------------------------------------------------------------------------------------------
+
 
 ## DETAILS PREVIOUS TO .NET CORE UPDATE
 1.	You need Bin.PIGG (Client Version)
